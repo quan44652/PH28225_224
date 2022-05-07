@@ -1,0 +1,314 @@
+/* reset css */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.clear {
+    clear: both;
+}
+
+#container {}
+
+#header {
+    top: 0;
+    height: 46px;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.nav {
+    position: relative;
+}
+
+.nav>li {
+    display: inline-block;
+
+
+}
+
+.nav>li>a {
+    text-transform: uppercase;
+    line-height: 46px;
+    font-size: 16px;
+    color: white;
+    padding: 15px 22px;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+
+.nav>li>a:hover {
+    background-color: gray;
+    color: black;
+}
+
+.nav li:hover .sub-nav {
+    display: block;
+}
+
+.sub-nav {
+    display: none;
+    position: absolute;
+    box-shadow: 0 0 10px black;
+}
+
+.sub-nav li {
+    background-color: white;
+    min-width: 120px;
+    list-style: none;
+}
+
+.sub-nav li a:hover {
+    background-color: gray;
+}
+
+.sub-nav a {
+    line-height: 40px;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    font-weight: 300;
+    padding: 0 20px;
+    display: block;
+    width: 100%;
+
+}
+
+/* end header */
+
+#slide {
+    margin-top: 46px;
+    padding-top: 50%;
+    background: url('/img/anh1.jpg') top center / cover no-repeat;
+    
+}
+
+.text-content {
+   text-align: center;
+   padding-bottom: 52px;
+   color: white;
+}
+
+.text-heading {
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.text-description {
+    font-size: 15px;
+}
+ /* end slide */
+
+ .band-section {
+    padding: 50px 0;
+    width: 768px;
+    margin: 0 auto;
+ }
+
+ .section-heading {
+    text-align: center;
+    letter-spacing: 6px;
+    font-size: 30px;
+    font-weight: 300;
+ }
+
+ .section-sub-heading {
+    text-align: center;
+     margin: 25px 0 15px 0;
+     font-style: italic;
+     opacity: 0.5;
+ }
+
+ .about-text {
+     text-align: justify;
+     line-height: 1.4;
+ }
+
+
+ .member-list {
+    text-align: center;
+     padding: 32px;
+ }
+
+ .member-name {
+     margin: 15px 0;
+     font-size: 15px;
+ }
+
+ .member-image {
+     width: 154px;
+     height: 154px;
+     margin-bottom: 16px;
+     border-radius: 5px;
+ }
+
+ .member-item {
+     width: 234px;
+    float: left;
+ }
+ /* end the band */
+
+ .tour-section {   
+    padding: 50px 0;
+    background-color: black;
+    color: white;
+ }
+
+ .content-section {
+    width: 800px;
+    margin: 0 auto;
+}
+
+ .sticker-list {
+     margin: 32px 0;
+ }
+
+ .sticker-list li {
+     height: 40px;
+     background-color: white;
+     width: 800px;
+     margin: 0 auto;
+     list-style: none;
+     color: grey;
+     padding-left: 12px;
+     border-bottom: 1px solid grey;
+     line-height: 40px;
+    
+ }
+
+ .sticker-list .soul-out {
+     padding: 2px 8px;
+     margin-left: 12px;
+     background-color: red;
+     text-align: center;
+     color: white;
+ }
+
+ .sticker-list .quatily {
+    line-height: 20px;
+    margin: 5px 28px 5px 0; 
+    float: right;
+    padding: 4px 10px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+ }
+
+.plance-list {
+    width: 250.6px;
+    height: 380px;
+    background-color: white;
+    color: black;
+    margin: 0 8px;
+    float: left;
+}
+
+.plance-item img {
+    width:  250.6px;
+    height: 184px;
+}
+
+.plance-body {
+    margin-left: 16px;
+}
+
+.plance-body .plance-heading {
+    margin: 15px 0;
+}
+
+.plance-body .plance-time {
+    margin: 15px 0;
+}
+
+.plance-body .plance-decs {
+    margin: 15px 0;
+}
+
+.plance-body  .plance-buy-btn {
+    margin: 22px 0;
+}
+
+.plance-body  .plance-buy-btn  a {
+    text-decoration: none;
+    font-size: 15px;
+    padding: 8px 16px;
+    margin-bottom: 16px;
+    background-color: black;
+    color: white;
+}
+
+/* end tour */ 
+
+.contact {
+    margin: 50px 0;
+}
+
+.form {
+    margin: 40px 0;
+}
+
+.form-section {
+    width: 400px;
+    font-size: 18px;
+    float: left;
+}
+
+.name-section {
+    height: 32px;
+    width: 192px;
+    padding-left: 12px;
+    font-size: 15px;
+    
+}
+
+.email-section {
+    height: 32px;
+    width: 192px;
+    padding-left: 12px;
+    font-size: 15px;
+    float: right;
+}
+
+ .msg-section {
+    height: 32px;
+    width: 400px;
+    padding-left: 12px;
+    font-size: 15px;
+    margin-top: 8px;
+    
+ }
+
+
+
+
+.send-btn {
+    float: right;
+}
+
+.send-btn p {
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 8px 16px;
+    background-color: black;
+    color: white;
+    margin-top: -24px;
+}
+
+/* end contact */
+
+#footer {
+    margin-top: 150px;
+    padding-top: 50%;
+    background: url('./img/map.jpg') top center / cover no-repeat;
+}
+
+
